@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  tiendanube-consumer:
+    image: tiendanube-consumer
+    container_name: tiendanube-consumer
+    env_file:
+      - .env
+
